@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F8F8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 2%;
+}
+
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 4em;
+    margin-left: 2em;
+    min-width: 300px;
+}
+
+.title h1 {
+    font-size: 75px;
+    margin-right: 6em;
+}
+
+.title p {
+    font-size: 22px;
+    margin-right: 25em;
+}
+
+.cta button {
+    margin-top: 2em;
+    margin-right: 1em;
+    height: 51px;
+    width: 200px;
+    border-radius: 14px;
+    transition: all .5s ease;
+}
+
+.learn_more {
+    font-size: 15px;
+    color: black;
+    border: solid #0058FF;
+    background: none;
+}
+
+.learn_more:hover {
+    color: #ffffff;
+    background-color: rgb(72, 145, 255);
+    border: solid rgb(72, 145, 255);
+    cursor: pointer;
+}
+
+.get_started {
+    font-size: 15px;
+    border: none;
+    color: white;
+    background: #0058FF;
+}
+
+.get_started:hover {
+    background-color: rgb(72, 145, 255);
+    cursor: pointer;
+}
+
+.counters {
+    padding: 3em 2em;
+    margin-top: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.counters>div {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.counter h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.counter:not(:last-child)::before {
+    content: '';
+    background: rgb(0, 0, 0);
+    position: absolute;
+    width: 2px;
+    height: 10em;
+    top: 52%;
+    transform: translateY(-50%);
+    right: 50%;
+}
+
+.about_page {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.text p{
+    font-size: 20px;
+}
