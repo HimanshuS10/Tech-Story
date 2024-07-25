@@ -1,0 +1,7 @@
+Signup page (firebase)
+Dashboard
+blog view
+edits images
+make 404
+connect google analysis
+make seo friendly
