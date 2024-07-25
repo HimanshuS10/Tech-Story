@@ -1,0 +1,159 @@
+@font-face {
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: mont;
+}
+
+.dm-sans-DM-Sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow-x: hidden;
+}
+
+/*Desktop*/
+@media only screen and (min-width:1205px) {}
+
+/*Laptop*/
+@media only screen and (max-width:1200px) {}
+
+/*Phone*/
+@media only screen and (max-width:992px) {
+    .hero {
+        min-width: 100%;
+        background-color: #1A1A1A;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 2%;
+    }
+
+    li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: clamp(13px, 4.5vw, 25px);
+        color: rgb(116, 116, 243);
+    }
+
+    .logo {
+        font-size: clamp(13px, 5vw, 25px);
+    }
+
+    .title {
+        margin-top: 2em;
+    }
+
+    .title h3 {
+        text-align: center;
+        font-size: clamp(13px, 5vw, 25px);
+        font-weight: 100;
+    }
+
+    .title h1 {
+        font-size: clamp(1em, 10vw, 10em);
+        text-align: center;
+    }
+
+    .title p {
+        margin-top: 10px;
+        font-size: clamp(1em, 4vw, 10em);
+        text-align: center;
+    }
+
+    .cta {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .learn_more {
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: none;
+    }
+
+    .get_started {
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid #0085FF;
+        background: #0085FF;
+    }
+
+    .hero-image {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    .about {
+        min-width: 100%;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-size: clamp(1em, 9vw, 10em);
+    }
+
+    .box {
+        margin: auto;
+        text-align: center;
+        height: 280px;
+        max-width: 300px;
+        background-color: grey;
+        margin-top: 1em;
+    }
+
+    .preview {
+        margin-top: 2em;
+    }
+
+    .preview h1 {
+        text-align: center;
+        font-size: clamp(1em, 8.5vw, 10em);
+    }
+
+    .preview_box {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        height: clamp(100px, 200px, 300px);
+        background-color: #0085FF;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 20px;
+    }
+
+    .preview_box h1 {
+        font-size: clamp(1em, 4vw, 10em);
+    }
+
+    .image_block img{
+        height: clamp(100px, 200px, 300px);
+        border-radius: 20px;
+    }
+}
