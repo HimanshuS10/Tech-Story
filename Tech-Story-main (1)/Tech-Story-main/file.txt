@@ -1,0 +1,17 @@
+July 25, 2024
+
+The whole main page is alomost done just fix the hover for the footer and start adding and linking button to other pages.
+
+to do:
+--main page--
+- hover footer
+- Fill out the content
+- Link the buttons
+
+-- dashboard--
+- make the responsive
+- hover footer
+- Fill out the content
+- Link the buttons
+
+- So for the board you make to make another box with 3 side by side and is the display none to hide the 2 by 2
